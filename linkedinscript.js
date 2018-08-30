@@ -21,13 +21,8 @@ async function add() {
     await sleep(1000); // stop for one second
     people = ul.querySelector('li');
   }
+}
 
 
-//this function can scroll
-//   setInterval(function(){
-//   var scrollingElement = (document.scrollingElement || document.body);
-//   scrollingElement.scrollTop = scrollingElement.scrollHeight;
-//   $('[data-control-name="invite"]').click()
-//    }, 3000);
-// }
+
 add();
